@@ -18,6 +18,6 @@ if PROJECT_ROOT not in sys.path:
     sys.path.append(PROJECT_ROOT)
 
 # TODO: change project name here
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "djangotest1.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "matheusvanzan.settings")
 
 application = get_wsgi_application()
